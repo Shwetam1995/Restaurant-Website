@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row" *ngFor="let menu of menus" style="padding-bottom:30px">
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img src="your-image-url.jpg" class="card-img-top" alt="Card Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{ menu.name}}</h5>
+                    <p class="card-text">{{ menu.description }}</p>
+                    <p class="card-text">{{ menu.price }}</p>
+                    <p class="card-text">{{ menu.category }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
